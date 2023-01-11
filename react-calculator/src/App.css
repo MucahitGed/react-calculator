@@ -1,0 +1,68 @@
+*{
+  font-size: 40px;
+}
+body{
+  background-color: #272343;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+h1{
+  margin-top: 102px;
+}
+.calc-grid{
+  
+  margin: 20px auto;
+  width: 500px;
+}
+.ops{
+  display: flex;
+  
+}
+button{
+  border: 0.5px solid white;
+display: flex;
+justify-content: center;
+align-items: center;
+  background-color: #bae8e8;
+  width: 20%;
+  height: 100px;
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: #e3f6f5;
+ }
+ .dig{
+  display: flex;
+  flex-wrap: wrap;
+ }
+.dig button{
+  flex: 1 1 33.333%;
+  min-width:33.333333% ;
+  background-color: #bae8e8;
+  height:100px ;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+  border: 0.5px solid #fff;
+    }
+.dig button:hover{
+  background-color: #e3f6f5;}
+.output{
+height: 161px;
+  padding: 10px;
+  text-align: right;
+  font-size: 80px;
+  display: flex;
+  opacity: 46.5%;
+background-color: #c5c5c5;
+  border: 2px solid white;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.preRes{
+  opacity: 26.5%;
+}
