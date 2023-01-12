@@ -63,7 +63,7 @@ const calculate=()=>{
         <button onClick={()=>{updateCalculation('0')}}>0</button>
         <button onClick={calculate}>=</button>
             </div>
-          </div>
+          </div>  
         </div>
       </div>
   );
