@@ -23,7 +23,7 @@ function App() {
     }
     setOutput(output+value)
   }
-
+ 
   const calculated = ()=>{
     setOutput(eval(output).toString())
   }
